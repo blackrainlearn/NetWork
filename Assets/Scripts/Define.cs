@@ -7,6 +7,13 @@ public enum NetState
     Droped
 }
 
+public enum MessageSpecialFlag
+{
+    None = 0,
+    Compressed = 1,
+    Encrypted = 2
+}
+
 public struct BufferInfo
 {
     public int bufferSize;
